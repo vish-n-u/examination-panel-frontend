@@ -1,5 +1,5 @@
-# You can enter as admin via  admin@123.com and password :- 123
-# You can enter as a teacher via teacher@1234.com and password 123
+# You can enter as admin using  admin@123.com and password :- 123
+# You can enter as a teacher using teacher@1234.com and password 123
 
 # Features:-
 ## Student:
