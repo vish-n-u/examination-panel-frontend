@@ -66,7 +66,7 @@ tomorrow.setDate(today.getDate() + 1)
   
     return (
       <div className="absolute top-5 left-10 w-[95%] h-[95%] z-10 shadow-lg shadow-black bg-slate-100 overflow-auto p-5">
-        <div className="w-full flex justify-end">
+        <div className="w-full flex justify-end cursor-pointer">
             <div onClick={()=>setIsNewQpClicked(false)}>
                 X
             </div>

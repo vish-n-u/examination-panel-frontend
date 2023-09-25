@@ -17,7 +17,7 @@ const ResultPaper = ({ questionPaper, answerSheet,setSelectedQPId }) => {
 
   return (
     <div className="w-full z-10 bg-white shadow-md h-full p-4">
-        <h1 className='absolute top-3 right-4 text-xl' onClick={()=>{
+        <h1 className='absolute top-3 right-4 text-xl cursor-pointer' onClick={()=>{
         setSelectedQPId(0)
       }}>X</h1>
       <h2 className="text-xl font-bold mb-4">Answer Paper</h2>
