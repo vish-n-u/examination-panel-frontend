@@ -104,9 +104,9 @@ const Admin = () => {
         <div className='w-[35%] bg-slate-200 overflow-auto rounded-md p-4 flex flex-col'>
         <SearchBar setUsers={setAllFilteredStudents} allUsers={allUserData} userType={"student"}/>
           {
-        allFilteredStudents.length>0?    allFilteredStudents.map((user)=>{
-              return <div key={user._id} className={`${user1._id==user._id?"bg-purple-600":"bg-purple-400"} my-3 py-2 p-4  hover:bg-purple-500 w-[40%] rounded-md`} onClick={()=>authorizeAdmin(user._id,navigate)}>
-                {user.userName}
+        allFilteredStudents.length>0?    allFilteredStudents.map((users)=>{
+              return <div key={users._id} className={`${user1?._id==user._id?"bg-purple-600":"bg-purple-400"} my-3 py-2 p-4  hover:bg-purple-500 w-[40%] rounded-md`} onClick={()=>authorizeAdmin(users._id,navigate)}>
+                {users.userName}
               </div>
             }) :
             <h1>No student found</h1>
